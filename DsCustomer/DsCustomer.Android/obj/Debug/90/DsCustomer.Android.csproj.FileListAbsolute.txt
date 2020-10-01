@@ -1,0 +1,12 @@
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\build.props
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\adb.props
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\DsCustomer.Android.csprojAssemblyReference.cache
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\res.flag
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\R.txt
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\R.cs.flag
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\DsCustomer.Android.csproj.CoreCompileInputs.cache
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\Notes.Android.dll
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.Android\obj\Debug\90\Notes.Android.pdb

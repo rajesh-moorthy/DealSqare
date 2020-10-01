@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+UzYHYZQTrBQbhFHUSY64fQ6EPyxJL0mgJwJI8bnZ6/YSRMZ1OGxH87AAiZHPx7i/wu0M9zQW1P5AGALr1ZHJw==",
+  "success": true,
+  "projectFilePath": "F:\\New Venture\\DealSQuare\\DsCode\\DsCustomer\\DsCustomer.iOS\\DsCustomer.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrraj\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1451\\xamarin.forms.visual.material.4.8.0.1451.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

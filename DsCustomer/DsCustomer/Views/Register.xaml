@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Notes.Views.Register">
+    <ContentView.Content>
+        <StackLayout>
+            <Button x:Name="Back" Clicked="Back_Clicked" Text="Back"></Button>
+            <BoxView HeightRequest="60"/>
+            <Image HorizontalOptions="Center" WidthRequest="300" Source="Ds.jpg"/>
+            <Frame>
+                <StackLayout Orientation="Vertical" Spacing="10">
+                    <Label Text="User Registration" FontSize="Large" HorizontalOptions="Center" />
+                    <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Enter Your Name"   
+                           PlaceholderColor="#BF043055 " HeightRequest="50"   
+                           Keyboard="Default" 
+                           TextColor="White"/>
+                    <Entry x:Name="Mobile" Text="{Binding Mobile}" Placeholder="Mobile Number"   
+                           PlaceholderColor="#BF043055" HeightRequest="50"   
+                           Keyboard="Numeric"  
+                           TextColor="White"/>
+                    <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password"   
+                           PlaceholderColor="#BF043055" HeightRequest="50"   
+                           IsPassword="True"  
+                           TextColor="White"/>
+                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"   
+                           PlaceholderColor="#BF043055" HeightRequest="50"   
+                           Keyboard="Email"  
+                           TextColor="White"/>
+                </StackLayout>
+            </Frame>
+            
+                <Button Command="{Binding SubmitCommand}" Text="Register" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+                
+           
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

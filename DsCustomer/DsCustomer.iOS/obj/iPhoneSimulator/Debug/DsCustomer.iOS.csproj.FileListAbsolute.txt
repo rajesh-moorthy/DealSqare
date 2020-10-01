@@ -1,0 +1,10 @@
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\optimized\
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\DsCustomer.iOS.csprojAssemblyReference.cache
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\DsCustomer.iOS.csproj.CoreCompileInputs.cache
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\Notes.iOS.exe
+F:\New Venture\DealSQuare\DsCustomer\DsCustomer.iOS\obj\iPhoneSimulator\Debug\Notes.iOS.pdb
