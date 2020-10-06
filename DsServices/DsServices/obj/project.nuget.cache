@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9u2pPAE9e7fPdJsvtje2DKRJMY67bAKioV8fGrPUe1+2zHDIctonKm9f2fAQx4NgiXW0Lm9NeFbx2ikRU5cVA==",
+  "dgSpecHash": "Qbqi6FU+/ewce/nU/qOgx+s3aR6vz88ZyzJVbZhXki0jtDrk5u3cbXPQT+FSB6zTaDwzoqN63EzpHUq7zR3IkQ==",
   "success": true,
-  "projectFilePath": "F:\\New Venture\\DealSQuare\\Code\\DsServices\\DsServices\\DsServices.csproj",
+  "projectFilePath": "F:\\New Venture\\DealSQuare\\DsCode\\DsServices\\DsServices\\DsServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrraj\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

@@ -156,4 +156,10 @@
       <Version>4.8.0.1451</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DsCustomer\DsCustomer.csproj">
+      <Project>{8e509968-0010-4308-84bf-533820082fe9}</Project>
+      <Name>DsCustomer</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

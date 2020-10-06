@@ -22,10 +22,10 @@
                 </StackLayout>
             </Frame>
             <StackLayout Orientation="Horizontal">
-                <Button Command="{Binding SubmitCommand}" Text="Login" TextColor="White"  
+                <Button Command="{Binding LoginCommand}" Text="Login" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" />
-                <Button Command="{Binding SubmitCommand}" Text="Register" TextColor="White"  
+                <Button  Clicked="Button_Clicked" Text="Register" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" />
             </StackLayout>

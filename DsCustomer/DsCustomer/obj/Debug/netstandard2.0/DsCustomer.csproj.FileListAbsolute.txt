@@ -16,3 +16,12 @@ F:\New Venture\DealSQuare\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\Views\R
 F:\New Venture\DealSQuare\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.AssemblyInfoInputs.cache
 F:\New Venture\DealSQuare\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.AssemblyInfo.cs
 F:\New Venture\DealSQuare\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.csproj.CoreCompileInputs.cache
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.csprojAssemblyReference.cache
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\Views\NoteEntryPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\Views\NotesPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\Views\Register.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.AssemblyInfoInputs.cache
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.AssemblyInfo.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\Debug\netstandard2.0\DsCustomer.csproj.CoreCompileInputs.cache

@@ -8,15 +8,15 @@ namespace Notes
 {
     public partial class App : Application
     {
-        static NoteDatabase database;
+        static DsDatabase database;
 
-        public static NoteDatabase Database
+        public static DsDatabase Database
         {
             get
             {
                 if (database == null)
                 {
-                    database = new NoteDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Notes.db3"));
+                    database = new DsDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Notes.db3"));
                 }
                 return database;
             }

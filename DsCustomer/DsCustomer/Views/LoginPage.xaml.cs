@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DsCustomer.Views;
 using Notes.ViewModels;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -19,15 +16,20 @@ namespace Notes.Views
             vm.DisplayInvalidLoginPrompt += () => DisplayAlert("Error", "Invalid Login, try again", "OK");
             InitializeComponent();
 
-            Email.Completed += (object sender, EventArgs e) =>
+            Mobile.Completed += (object sender, EventArgs e) =>
             {
                 Password.Focus();
             };
 
             Password.Completed += (object sender, EventArgs e) =>
             {
-                vm.SubmitCommand.Execute(null);
+                vm.LoginCommand.Execute(null);
             };
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Register());
         }
     }
 }

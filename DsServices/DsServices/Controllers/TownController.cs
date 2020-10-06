@@ -14,7 +14,7 @@ namespace DsServices.Controllers
     public class TownController : ControllerBase
     {
         [HttpGet("api/GetTowns")]
-        public List<Cities> GetActiveTowns()
+        public List<City> GetActiveTowns()
         {
             try
             {

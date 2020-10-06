@@ -1,10 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Notes.Views.Register">
-    <ContentView.Content>
+             x:Class="DsCustomer.Views.Register">
+    <ContentPage.Content>
+     
         <StackLayout>
-            <Button x:Name="Back" Clicked="Back_Clicked" Text="Back"></Button>
+            
+            
             <BoxView HeightRequest="60"/>
             <Image HorizontalOptions="Center" WidthRequest="300" Source="Ds.jpg"/>
             <Frame>
@@ -28,12 +30,15 @@
                            TextColor="White"/>
                 </StackLayout>
             </Frame>
-            
-                <Button Command="{Binding SubmitCommand}" Text="Register" TextColor="White"  
+            <StackLayout Orientation="Horizontal">
+                <Button Command="{Binding RegisterCommand}" Text="Login" Clicked="Login_Clicked" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" />
-                
-           
+                <Button x:Name="Register" Clicked="Register_Clicked" Text="Register" TextColor="White"  
+                    FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
+                    BackgroundColor="#088da5" />
+            </StackLayout>
+
         </StackLayout>
-    </ContentView.Content>
-</ContentView>
+    </ContentPage.Content>
+</ContentPage>

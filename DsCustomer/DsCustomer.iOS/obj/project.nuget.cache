@@ -1,9 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "+UzYHYZQTrBQbhFHUSY64fQ6EPyxJL0mgJwJI8bnZ6/YSRMZ1OGxH87AAiZHPx7i/wu0M9zQW1P5AGALr1ZHJw==",
+  "dgSpecHash": "+Vld2DFpImQSjOl/70vrMvov3EttDzlkck71uAtKCEZjYBLZ3kULfuSyDg2cbqOuv//SWA9+dwo6Ut2YHNv29w==",
   "success": true,
   "projectFilePath": "F:\\New Venture\\DealSQuare\\DsCode\\DsCustomer\\DsCustomer.iOS\\DsCustomer.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mrraj\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\mrraj\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\xamarin.forms.visual.material\\4.8.0.1451\\xamarin.forms.visual.material.4.8.0.1451.nupkg.sha512",
     "C:\\Users\\mrraj\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"

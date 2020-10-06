@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.ComponentModel;
+using System.Net.Http;
 using System.Windows.Input;
 using Xamarin.Forms;
 namespace Notes.ViewModels
@@ -9,14 +11,14 @@ namespace Notes.ViewModels
     {
         public Action DisplayInvalidLoginPrompt;
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
-        private string email;
-        public string Email
+        private string mobile;
+        public string Mobile
         {
-            get { return email; }
+            get { return mobile; }
             set
             {
-                email = value;
-                PropertyChanged(this, new PropertyChangedEventArgs("Email"));
+                mobile = value;
+                PropertyChanged(this, new PropertyChangedEventArgs("Mobile"));
             }
         }
         private string password;
@@ -29,18 +31,24 @@ namespace Notes.ViewModels
                 PropertyChanged(this, new PropertyChangedEventArgs("Password"));
             }
         }
-        public ICommand SubmitCommand { protected set; get; }
+        public ICommand LoginCommand { protected set; get; }
+
+        public ICommand RegisterCommand { protected set; get; }
+
         public LoginViewModel()
         {
-            SubmitCommand = new Command(OnSubmit);
+            LoginCommand = new Command(OnSubmit);
         }
         public void OnSubmit()
         {
-            if (email != "macoratti@yahoo.com" || password != "secret")
+            if (mobile != "macoratti@yahoo.com" || password != "secret")
             {
                 DisplayInvalidLoginPrompt();
             }
         }
+
+        
+
     }
 }
 

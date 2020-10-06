@@ -9564,11 +9564,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\New Venture\\DealSQuare\\Code\\DsServices\\DsServices\\DsServices.csproj",
+      "projectUniqueName": "F:\\New Venture\\DealSQuare\\DsCode\\DsServices\\DsServices\\DsServices.csproj",
       "projectName": "DsServices",
-      "projectPath": "F:\\New Venture\\DealSQuare\\Code\\DsServices\\DsServices\\DsServices.csproj",
+      "projectPath": "F:\\New Venture\\DealSQuare\\DsCode\\DsServices\\DsServices\\DsServices.csproj",
       "packagesPath": "C:\\Users\\mrraj\\.nuget\\packages\\",
-      "outputPath": "F:\\New Venture\\DealSQuare\\Code\\DsServices\\DsServices\\obj\\",
+      "outputPath": "F:\\New Venture\\DealSQuare\\DsCode\\DsServices\\DsServices\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
