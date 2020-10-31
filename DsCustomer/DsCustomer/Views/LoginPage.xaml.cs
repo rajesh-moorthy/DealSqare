@@ -1,10 +1,10 @@
 ﻿using DsCustomer.Views;
-using Notes.ViewModels;
+using DsCustomer.ViewModels;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace Notes.Views
+namespace DsCustomer.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage

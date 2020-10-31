@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Notes.iOS
+namespace DsCustomer.iOS
 {
     public class Application
     {

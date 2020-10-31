@@ -29,8 +29,10 @@ namespace DsServices.Models
         
         public string Cord2 { get; set; }
 
-        public string Active { get; set; }
+        public int Active { get; set; }
 
-        //public Patient PatientCity { get; set; }
+        public Customer CustCity { get; set; }
+
+        public Vendors VendCity { get; set; }
     }
 }

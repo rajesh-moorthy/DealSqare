@@ -1,0 +1,12 @@
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\bin\Debug\netstandard2.0\DsVendor.deps.json
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\bin\Debug\netstandard2.0\DsVendor.dll
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\DsVendor.csprojAssemblyReference.cache
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\DsVendor.AssemblyInfoInputs.cache
+F:\New Venture\DealSQuare\DsCode\DsVendor\DsVendor\DsVendor\obj\Debug\netstandard2.0\DsVendor.AssemblyInfo.cs

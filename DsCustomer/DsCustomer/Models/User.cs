@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Notes.Models
+namespace DsCustomer.Models
 {
     public class User
     {
@@ -14,8 +14,9 @@ namespace Notes.Models
         public string Email { get; set; }
 
         public string Password { get; set; }
-        public DateTime Created { get; set; }
+   
+        public int UserType  {get;set;}
 
-        public virtual ICollection<Credential> Credentials { get; set; }
+        public DateTime Created { get; set; }
     }
 }

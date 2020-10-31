@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DsServices.Models;
 using Microsoft.EntityFrameworkCore;
-using DsServices.Repository;
 
 namespace DsServices.Controllers
 {
@@ -17,7 +16,7 @@ namespace DsServices.Controllers
         public async Task<IList<UserData>> GetUsersByMobile(string Mobile)
         {
             var db = new DsContext();
-            var user = from s in db.Customers
+            var user = from s in db.customer
                        where s.MobileNumber == Mobile
                        select new UserData()
                        {
@@ -39,7 +38,7 @@ namespace DsServices.Controllers
         public async Task CreateCustomer(Customer customer)
         {
             var db = new DsContext();
-            await db.Customers.AddAsync(customer);
+            await db.customer.AddAsync(customer);
             await db.SaveChangesAsync();
         }
 

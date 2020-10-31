@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
 
 namespace DsServices.Models
 {
     public class Vendors
     {
+        [Key]
         public int VendorId { get; set; }
         public string VendorName { get; set; }
         
@@ -24,6 +26,8 @@ namespace DsServices.Models
 
         public int Active { get; set; }
 
-        public virtual City city { get; set; }
+        public virtual City Vcity { get; set; }
+
+        public virtual Preferences VBusiness { get; set; }
     }
 }

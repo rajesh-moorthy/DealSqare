@@ -4,7 +4,8 @@ using System.ComponentModel;
 using System.Net.Http;
 using System.Windows.Input;
 using Xamarin.Forms;
-namespace Notes.ViewModels
+
+namespace DsCustomer.ViewModels
 
 {
     public class LoginViewModel : INotifyPropertyChanged

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using Xamarin.Forms;
-using Notes.Data;
-using Notes.Views;
+using DsCustomer.Data;
+using DsCustomer.Views;
 
-namespace Notes
+namespace DsCustomer
 {
     public partial class App : Application
     {
@@ -16,7 +16,7 @@ namespace Notes
             {
                 if (database == null)
                 {
-                    database = new DsDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Notes.db3"));
+                    database = new DsDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "DealSqare.db3"));
                 }
                 return database;
             }

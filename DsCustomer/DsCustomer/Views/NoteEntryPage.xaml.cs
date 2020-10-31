@@ -1,8 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
-using Notes.Models;
+using DsCustomer.Models;
+using DsCustomer;
 
-namespace Notes
+namespace DsCustomer.Views
 {
     public partial class NoteEntryPage : ContentPage
     {

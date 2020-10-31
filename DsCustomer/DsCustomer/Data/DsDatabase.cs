@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using SQLite;
-using Notes.Models;
+using DsCustomer.Models;
 
-namespace Notes.Data
+namespace DsCustomer.Data
 {
     public class DsDatabase
     {
@@ -40,6 +40,13 @@ namespace Notes.Data
             }
         }
 
+
+        public Task<User> GetUserAsync(string mobile)
+        {
+            return _database.Table<User>()
+                            .Where(i => i.Mobile == mobile)
+                            .FirstOrDefaultAsync();
+        }
         public Task<int> SaveUserAsync(User user)
         {
             if (user.Id != 0)

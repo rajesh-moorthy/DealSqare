@@ -1,7 +1,7 @@
 ﻿using System;
 using SQLite;
 
-namespace Notes.Models
+namespace DsCustomer.Models
 {
     public class Transactions
     {

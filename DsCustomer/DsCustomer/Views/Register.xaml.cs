@@ -1,4 +1,4 @@
-﻿using Notes.Views;
+﻿using DsCustomer.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +9,8 @@ using Newtonsoft.Json;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using DsCustomer.Models;
+using System.Net.Http.Headers;
 
 namespace DsCustomer.Views
 {
@@ -18,6 +20,17 @@ namespace DsCustomer.Views
         public Register()
         {
             InitializeComponent();
+            CustomerType.SelectedIndexChanged += (sender, args) =>
+              {
+                  if (CustomerType.SelectedIndex == 0)
+                  {
+                      GST.IsVisible = false;
+                  }
+                  else
+                  {
+                      GST.IsVisible = true;
+                  }
+              };
         }
 
         private void Login_Clicked(object sender, EventArgs e)
@@ -25,33 +38,88 @@ namespace DsCustomer.Views
             Navigation.PushAsync(new LoginPage());
         }
 
-   
-
-        private async void Register_Clicked(object sender, EventArgs e)
+        private async void GetCountries()
         {
-
-            var httpClient = new HttpClient();
-            var response = await httpClient.GetStringAsync("http://localhost:56103/api/Registrations ");
-
-            if (response==null)
+            var baseUrl = "http://localhost/DsService";
+            if (CustomerType.SelectedIndex == 0)
             {
-                Registration Registration = new Registration
-                {
-                    Name = Name1.Text,
-                    Email = Email1.Text
-                Password = Pass.Text
-
-                };
-                var httpClient = new HttpClient();
-                var Json = JsonConvert.SerializeObject(employee);
-                HttpContent httpContent = new StringContent(Json);
-                httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/Json");
-                httpClient.PostAsync("http://localhost:56103/Api/Registration", httpContent);
-                DisplayAlert("Added", "Your Data has been added", "OK");
+                baseUrl += "/api/GetUsersByMobile/" + Mobile.Text;
             }
             else
             {
+                baseUrl += "api/GetVendorsByMobile/" + Mobile.Text;
+            }
+            // check if the mobile number exists
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetStringAsync(baseUrl);
+        }
 
+        private async void Register_Clicked(object sender, EventArgs e)
+        {
+            var baseUrl = "http://192.168.0.106:8080";
+            if (CustomerType.SelectedIndex == 0)
+            {
+                baseUrl += "/api/GetUsersByMobile/" + Mobile.Text;
+            }
+            else
+            {
+                baseUrl += "api/GetVendorsByMobile/" + Mobile.Text;
+            }
+            // check if the mobile number exists
+            var httpClient = new HttpClient();
+            var response = await httpClient.GetStringAsync(baseUrl);
+            // If there is no record add the record to the web as well as local
+            if (response == null)
+            {
+
+                User user = new User
+                {
+                    Name = Name.Text,
+                    Mobile = Mobile.Text,
+                    Email = Email.Text,
+                    Password = Password.Text,
+                    UserType = CustomerType.SelectedIndex,
+                    Created = DateTime.UtcNow
+
+                };
+                var Json = JsonConvert.SerializeObject(user);
+
+
+                if (CustomerType.SelectedIndex == 0)
+                {
+                    Customer cust = new Customer
+                    {
+                        CustomerName = Name.Text,
+                        MobileNumber = Mobile.Text,
+                        EmailId = Email.Text,
+                        Password = Password.Text,
+                        Created = DateTime.UtcNow
+                    };
+                    Json = JsonConvert.SerializeObject(cust);
+                    baseUrl += "api/CreateCustomer/" + Json;
+                }
+                else
+                {
+                    Vendors vend = new Vendors
+                    {
+                        VendorName = Name.Text,
+                        MobileNumber = Mobile.Text,
+                        EmailId = Email.Text,
+                        Password = Password.Text,
+                        Active = 1
+                    };
+                    Json = JsonConvert.SerializeObject(vend);
+                    baseUrl += "api/CreateCustomer/" + Json;
+                }
+
+                HttpContent httpContent = new StringContent(Json);
+                httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/Json");
+                await httpClient.PostAsync("http://localhost:56103/Api/Registration", httpContent);
+                await DisplayAlert("Added", "Your Data has been added", "OK");
+            }
+            else
+            {
+                await DisplayAlert("Added", "You are already registered.  Please Login", "OK");
             }
             //var employee = JsonConvert.DeserializeObject<List<employee>>(response);
             //LV.ItemsSource = employee;

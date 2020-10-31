@@ -15,26 +15,57 @@
                     <Entry x:Name="Name" Text="{Binding Name}" Placeholder="Enter Your Name"   
                            PlaceholderColor="#BF043055 " HeightRequest="50"   
                            Keyboard="Default" 
-                           TextColor="White"/>
+                           TextColor="Black"/>
                     <Entry x:Name="Mobile" Text="{Binding Mobile}" Placeholder="Mobile Number"   
                            PlaceholderColor="#BF043055" HeightRequest="50"   
                            Keyboard="Numeric"  
-                           TextColor="White"/>
+                           TextColor="Black"/>
                     <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password"   
                            PlaceholderColor="#BF043055" HeightRequest="50"   
                            IsPassword="True"  
-                           TextColor="White"/>
+                           TextColor="Black"/>
                     <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"   
                            PlaceholderColor="#BF043055" HeightRequest="50"   
                            Keyboard="Email"  
-                           TextColor="White"/>
+                           TextColor="Black"/>
+                    <!--<Picker x:Name="Country" Title="Country" ItemsSource="{Binding Country}" TitleColor="#BF043055" >
+                        <Picker.Items>
+                            <x:String>Customer</x:String>
+                            <x:String>Vendor</x:String>
+                        </Picker.Items>
+                    </Picker>-->
+                    <Picker x:Name="State" Title="State" ItemsSource="{Binding State}" TitleColor="#BF043055" >
+                        <Picker.Items>
+                           
+                        </Picker.Items>
+                    </Picker>
+                    <Picker x:Name="Village" Title="City / Town" ItemsSource="{Binding City}" TitleColor="#BF043055" >
+                        <Picker.Items>
+                           
+                        </Picker.Items>
+                    </Picker>
+                    <Picker x:Name="CustomerType" Title="Customer / Vendor" TitleColor="#BF043055" >
+                        <Picker.Items>
+                            <x:String>Customer</x:String>
+                            <x:String>Vendor</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Entry x:Name="GST" Text="{Binding GST}" Placeholder="GST No"   
+                           PlaceholderColor="#BF043055" HeightRequest="50"   
+                           Keyboard="Default"  
+                           TextColor="Black"/>
+                    <Picker x:Name="pkrBusiness"  ItemsSource="{Binding Preferences}" Title="Business Preferences" TitleColor="#BF043055" >
+                        <Picker.Items>
+                            
+                        </Picker.Items>
+                    </Picker>
                 </StackLayout>
             </Frame>
             <StackLayout Orientation="Horizontal">
-                <Button Command="{Binding RegisterCommand}" Text="Login" Clicked="Login_Clicked" TextColor="White"  
+                <Button x:Name="Login" Command="{Binding RegisterCommand}" Text="Login" Clicked="Login_Clicked" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" />
-                <Button x:Name="Register" Clicked="Register_Clicked" Text="Register" TextColor="White"  
+                <Button x:Name="RegisterBtn" Clicked="Register_Clicked" Text="Register" TextColor="White"  
                     FontAttributes="Bold" FontSize="Large" HorizontalOptions="FillAndExpand"  
                     BackgroundColor="#088da5" />
             </StackLayout>

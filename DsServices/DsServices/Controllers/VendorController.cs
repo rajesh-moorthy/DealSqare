@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DsServices.Models;
 using Microsoft.EntityFrameworkCore;
-using DsServices.Repository;
 
 namespace DsServices.Controllers
 {
@@ -17,7 +16,7 @@ namespace DsServices.Controllers
         public async Task<IList<VendorData>> GetVendorsByMobile(string Mobile)
         {
             var db = new DsContext();
-            var user = from s in db.Vendor
+            var user = from s in db.vendors
                        where s.MobileNumber == Mobile
                        select new VendorData()
                        {
@@ -32,14 +31,11 @@ namespace DsServices.Controllers
             return (IList<VendorData>)await user.ToListAsync();
         }
 
-
-
-
         [HttpPost("api/CreateVendor/{vendor}")]
         public async Task CreateVendor(Vendors vendor)
         {
             var db = new DsContext();
-            await db.Vendor.AddAsync(vendor);
+            await db.vendors.AddAsync(vendor);
             await db.SaveChangesAsync();
         }
 
