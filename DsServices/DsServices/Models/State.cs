@@ -7,8 +7,8 @@ namespace DsServices.Models
     public partial class State
     {
         [Key]
-        public int Id { get; set; }
-        public int CountryId { get; set; }
+        public int ID { get; set; }
+        public int CountryID { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
         public int Active { get; set; }

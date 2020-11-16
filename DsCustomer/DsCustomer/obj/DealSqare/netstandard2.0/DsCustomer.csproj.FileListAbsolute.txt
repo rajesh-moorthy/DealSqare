@@ -1,8 +1,8 @@
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\bin\DealSqare\netstandard2.0\DsCustomer.deps.json
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\bin\DealSqare\netstandard2.0\DsCustomer.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\bin\DealSqare\netstandard2.0\DsCustomer.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\DsCustomer.csprojAssemblyReference.cache
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\App.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\DSqareMasterDetailPage.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\DSqareMasterDetailPageDetail.xaml.g.cs
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\DSqareMasterDetailPageMaster.xaml.g.cs
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\LoginPage.xaml.g.cs
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\NoteEntryPage.xaml.g.cs
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\NotesPage.xaml.g.cs
@@ -10,9 +10,3 @@ F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\DsCustomer.AssemblyInfoInputs.cache
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\DsCustomer.AssemblyInfo.cs
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\DsCustomer.csproj.CoreCompileInputs.cache
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\XamlC.stamp
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\DsCustomer.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\DsCustomer.pdb
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\DSqareMasterDetailPage.xaml.g.cs
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\DSqareMasterDetailPageDetail.xaml.g.cs
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer\obj\DealSqare\netstandard2.0\Views\DSqareMasterDetailPageMaster.xaml.g.cs

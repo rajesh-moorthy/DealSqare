@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Net;
+using System.Net.Http.Headers;
+using System.Net.Http;
+using Newtonsoft.Json;
+using DsCustomer.Models;
 
 namespace DsCustomer
 {
     public class AppConstants
     {
-#if Dev
-    public const string BaseURL = "http://mydevapi.com/devApi";
-#elif Test
-    public const string BaseURL = "http://mytestapi.com/testApi";
-#elif SIT
-    public const string BaseURL = "http://mytestapi.com/testApi";
-#elif UAT
-        public const string BaseURL = "http://myuatapi.com/uatApi"
-#elif Prod
-    public const string BaseURL = "http://myliveapi.com/LiveApi";
-#endif
+
+        public string BaseURL = "http://192.168.0.106:8080";
+
+
+       
     }
 }

@@ -173,10 +173,10 @@ namespace DsServices.Models
             {
                 entity.ToTable("state", "dealsqare");
 
-                entity.HasIndex(e => e.CountryId)
+                entity.HasIndex(e => e.CountryID)
                     .HasName("FK_State_Country");
 
-                entity.Property(e => e.Id)
+                entity.Property(e => e.ID)
                     .HasColumnType("int(11)")
                     .ValueGeneratedNever();
 
@@ -184,8 +184,8 @@ namespace DsServices.Models
                    .HasColumnType("int(11)")
                     .HasDefaultValueSql("0");
 
-                entity.Property(e => e.CountryId)
-                    .HasColumnName("Id")
+                entity.Property(e => e.CountryID)
+                    .HasColumnName("CountryID")
                     .HasColumnType("int(11)");
 
                 entity.Property(e => e.Code)
@@ -200,7 +200,7 @@ namespace DsServices.Models
 
                 entity.HasOne(d => d.Country)
                     .WithMany(p => p.State)
-                    .HasForeignKey(d => d.CountryId)
+                    .HasForeignKey(d => d.CountryID)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_State_Country");
             });

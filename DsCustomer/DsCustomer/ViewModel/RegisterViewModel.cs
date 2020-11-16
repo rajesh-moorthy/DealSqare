@@ -31,6 +31,7 @@ namespace DsCustomer.ViewModel
                 password = value;
                 PropertyChanged(this, new PropertyChangedEventArgs("Password"));
             }
+            
         }
         public ICommand LoginCommand { protected set; get; }
 

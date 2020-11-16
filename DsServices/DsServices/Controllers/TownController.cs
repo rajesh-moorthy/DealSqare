@@ -30,7 +30,21 @@ namespace DsServices.Controllers
             }
         }
 
-
+        [HttpGet("api/GetActiveTownsByState/{stateId}")]
+        public List<City> GetActiveTownsByState(string stateId)
+        {
+            try
+            {
+                var dbContext = new DsContext();
+                var town = dbContext.City.Where(u => u.Active == 1 && u.StateID == stateId);
+                return town.ToList();
+            }
+            catch (Exception ex)
+            {
+                Cl.InsertLog(ex.Message);
+                return null;
+            }
+        }
         [HttpGet("api/GetCountries")]
         public List<Country> GetActiveCountries()
         {
@@ -48,13 +62,13 @@ namespace DsServices.Controllers
             }
         }
 
-        [HttpGet("api/GetStates")]
-        public List<State> GetActiveStates()
+        [HttpGet("api/GetActiveStatesByCountry/{countryId}")]
+        public List<State> GetActiveStatesByCountry(int countryId)
         {
             try
             {
                 var dbContext = new DsContext();
-                var state = dbContext.State.Where(u => u.Active == 1);
+                var state = dbContext.State.Where(u => u.Active == 1 && u.CountryID == countryId);
                 return state.ToList();
             }
             catch (Exception ex)

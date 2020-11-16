@@ -28,27 +28,29 @@
                            PlaceholderColor="#BF043055" HeightRequest="50"   
                            Keyboard="Email"  
                            TextColor="Black"/>
-                    <!--<Picker x:Name="Country" Title="Country" ItemsSource="{Binding Country}" TitleColor="#BF043055" >
-                        <Picker.Items>
-                            <x:String>Customer</x:String>
-                            <x:String>Vendor</x:String>
-                        </Picker.Items>
-                    </Picker>-->
-                    <Picker x:Name="State" Title="State" ItemsSource="{Binding State}" TitleColor="#BF043055" >
+                    <Picker x:Name="pkrCountry" Title="Country"  ItemDisplayBinding="{Binding Name}"
+                            SelectedIndex="{Binding Id, Mode=TwoWay}" 
+                            SelectedIndexChanged="pkrCountry_SelectedIndexChanged" TitleColor="#BF043055" >
+                        
+                    </Picker>
+                    <Picker x:Name="pkrState" Title="State"  ItemDisplayBinding="{Binding Name}" TitleColor="#BF043055" >
                         <Picker.Items>
                            
                         </Picker.Items>
                     </Picker>
-                    <Picker x:Name="Village" Title="City / Town" ItemsSource="{Binding City}" TitleColor="#BF043055" >
+                    <Picker x:Name="pkrVillage" Title="City / Town" ItemsSource="{Binding City}" TitleColor="#BF043055" >
                         <Picker.Items>
                            
                         </Picker.Items>
                     </Picker>
                     <Picker x:Name="CustomerType" Title="Customer / Vendor" TitleColor="#BF043055" >
-                        <Picker.Items>
-                            <x:String>Customer</x:String>
-                            <x:String>Vendor</x:String>
-                        </Picker.Items>
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Customer</x:String>
+                                <x:String>Vendor</x:String>
+                            </x:Array>
+                           
+                        </Picker.ItemsSource>
                     </Picker>
                     <Entry x:Name="GST" Text="{Binding GST}" Placeholder="GST No"   
                            PlaceholderColor="#BF043055" HeightRequest="50"   

@@ -1,3 +1,13 @@
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\Mono.Android.dll
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.Android.dll
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.Android.pdb
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer.apk
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer.aab
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer-Signed.aab
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer-Signed.apk
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer-Signed.apk.idsig
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.dll
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\build.props
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\adb.props
@@ -8,15 +18,6 @@ F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\R.txt
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\R.cs.flag
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\DsCustomer.Android.csproj.CoreCompileInputs.cache
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.Android.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.Android.pdb
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer.apk
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer.aab
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer-Signed.aab
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer-Signed.apk
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\com.companyname.DsCustomer-Signed.apk.idsig
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\DsCustomer.Android.csproj.CopyComplete
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\DsCustomer.Android.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\DsCustomer.Android.pdb
@@ -50,7 +51,6 @@ F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\FormsViewGroup.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\FormsViewGroup.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\Java.Interop.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\Mono.Android.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\Mono.Android.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\Mono.Security.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\Mono.Security.pdb
@@ -64,8 +64,11 @@ F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\SQLitePCLRaw.provider.e_sqlite3.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.Buffers.dll
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.Annotations.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.Composition.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.Composition.pdb
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.DataAnnotations.dll
+F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.DataAnnotations.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.Core.dll
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.Core.pdb
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.Data.DataSetExtensions.dll
@@ -490,7 +493,3 @@ F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\stamp\_GenerateJavaStubs.stamp
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\stamp\_GeneratePackageManagerJava.stamp
 F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\stamp\_ResolveLibraryProjectImports.stamp
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\bin\DealSqare\DsCustomer.dll.mdb
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.Annotations.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.DataAnnotations.dll
-F:\New Venture\DealSQuare\DsCode\DsCustomer\DsCustomer.Android\obj\DealSqare\90\android\assets\System.ComponentModel.DataAnnotations.pdb

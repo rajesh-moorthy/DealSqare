@@ -6,17 +6,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
 using Newtonsoft.Json;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using DsCustomer.Models;
 using System.Net.Http.Headers;
+using DsCustomer.ViewModel;
+using System.Net;
+using DsCustomer;
 
 namespace DsCustomer.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Register : ContentPage
     {
+        AppConstants Ac = new AppConstants();
+        
         public Register()
         {
             InitializeComponent();
@@ -31,6 +35,13 @@ namespace DsCustomer.Views
                       GST.IsVisible = true;
                   }
               };
+            
+             GetCountry();
+            
+            pkrCountry.SelectedIndexChanged += (sender, args) =>
+              {
+                  GetStateByCountry(Convert.ToInt32(pkrCountry.SelectedItem));
+              };
         }
 
         private void Login_Clicked(object sender, EventArgs e)
@@ -38,21 +49,7 @@ namespace DsCustomer.Views
             Navigation.PushAsync(new LoginPage());
         }
 
-        private async void GetCountries()
-        {
-            var baseUrl = "http://localhost/DsService";
-            if (CustomerType.SelectedIndex == 0)
-            {
-                baseUrl += "/api/GetUsersByMobile/" + Mobile.Text;
-            }
-            else
-            {
-                baseUrl += "api/GetVendorsByMobile/" + Mobile.Text;
-            }
-            // check if the mobile number exists
-            var httpClient = new HttpClient();
-            var response = await httpClient.GetStringAsync(baseUrl);
-        }
+
 
         private async void Register_Clicked(object sender, EventArgs e)
         {
@@ -124,5 +121,46 @@ namespace DsCustomer.Views
             //var employee = JsonConvert.DeserializeObject<List<employee>>(response);
             //LV.ItemsSource = employee;
         }
+
+        private async void GetCountry()
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                var baseUrl = Ac.BaseURL;
+                baseUrl += "/api/GetCountries";
+                var response = await client.GetStringAsync(baseUrl);
+                var ctry = JsonConvert.DeserializeObject<List<Country>>(response);
+                pkrCountry.ItemsSource = ctry;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        private async void GetStateByCountry(int CountryId)
+        {
+            try
+            {
+                HttpClient client = new HttpClient();
+                var baseUrl = Ac.BaseURL;
+                baseUrl += "/api/GetActiveStatesByCountry/" + CountryId;
+                var response = await client.GetStringAsync(baseUrl);
+                var ctry = JsonConvert.DeserializeObject<List<Country>>(response);
+                pkrCountry.ItemsSource = ctry;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+        private void pkrCountry_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+///9994221429 - Muthu
